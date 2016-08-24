@@ -1,0 +1,5 @@
+Now that you have your workspace set up, what do you want to try using Git for?
+Editing my new iOS app
+
+What happens when you initialize a repository? Why do you need to do it?
+It adds a .git file which begins tracking the files in the repository. If you do not then you cannot commit your files.
