@@ -3,3 +3,25 @@ Editing my new iOS app
 
 What happens when you initialize a repository? Why do you need to do it?
 It adds a .git file which begins tracking the files in the repository. If you do not then you cannot commit your files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is where you place files that you want to be committed. This allows you to only select the changes you want to be committed.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can use the staging area to only insert a single logical change as opposed to just committing with all of your changes
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Use branches when you are making an experimental change or alternate versions. Branches allow you to update your code without it affecting the history
+of the main set of code.
+
+How do the diagrams help you visualize the branch structure?
+They allow you see how branches and commits are related, and to see which ones can be reached and not reached.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It adds all the changes from both branches together based on their common ancestor. The branches connect when merged.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Manual merges can be complicated but are more likely to merge the proper code. Automatic merge is fast and simple but git doesn't always
+know what is the correct code to merge.
