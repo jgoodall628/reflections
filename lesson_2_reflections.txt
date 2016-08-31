@@ -24,4 +24,3 @@ It adds all the changes from both branches together based on their common ancest
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 Manual merges can be complicated but are more likely to merge the proper code. Automatic merge is fast and simple but git doesn't always
-know what is the correct code to merge.
