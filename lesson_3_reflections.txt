@@ -12,3 +12,8 @@ It allows you to work locally while others make changes, which you can then merg
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Sharing a common folder on your local network. No version control or streamlined system for integrating changes. It would easier
 to deal with local people and probably require less complicated commands to make changes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Experimental changes are good to put in a separate branch so that you can test ideas without affecting the main body of code. Separate
+branches also help when collaborating with others since 'master' is typically viewed as the stable, unchanging base which
+everything else is built off of.
